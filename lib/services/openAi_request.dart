@@ -5,7 +5,7 @@ import '../models/ai_model.dart';
 
 Future fetchRecommendations() async {
   String apiKey =
-      "sk-gOZtX9mkGNmmSXCU4vyBj1J_-CbXPksrsdON9P5mdAT3BlbkFJndeJSo_uj8JvJRUNIwIpjkxRQOJIhuB9Pit0INmyEA";
+      "";
   final url = Uri.parse('https://api.openai.com/v1/chat/completions');
 
   final body = jsonEncode({
