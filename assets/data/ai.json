@@ -1,0 +1,99 @@
+{
+  "cities": [
+    {
+      "name": "Rome",
+      "description": "Rome, the capital city of Italy, is a sprawling, cosmopolitan city with nearly 3,000 years of globally influential art, architecture and culture on display. Ancient ruins such as the Roman Forum and the Colosseum evoke the power of the former Roman Empire.",
+      "map_link": "https://www.google.com/maps/place/Rome",
+      "beautiful_places": [
+        "Colosseum",
+        "Vatican City",
+        "Trevi Fountain",
+        "Pantheon",
+        "Spanish Steps",
+        "Roman Forum",
+        "Piazza Navona",
+        "Villa Borghese",
+        "Castel Sant'Angelo",
+        "Piazza Venezia"
+      ],
+      "average_flight_cost_from_istanbul": 150,
+      "average_accommodation_cost_per_night": 100
+    },
+    {
+      "name": "Venice",
+      "description": "Venice is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals â including the Grand Canal thoroughfare â lined with Renaissance and Gothic palaces.",
+      "map_link": "https://www.google.com/maps/place/Venice",
+      "beautiful_places": [
+        "St. Mark's Basilica",
+        "Doge's Palace",
+        "Rialto Bridge",
+        "Grand Canal",
+        "Piazza San Marco",
+        "Murano Island",
+        "Burano Island",
+        "Peggy Guggenheim Collection",
+        "Bridge of Sighs",
+        "Teatro La Fenice"
+      ],
+      "average_flight_cost_from_istanbul": 120,
+      "average_accommodation_cost_per_night": 120
+    },
+    {
+      "name": "Florence",
+      "description": "Florence, the capital of Italyâs Tuscany region, is home to many masterpieces of Renaissance art and architecture. One of its most iconic sights is the Duomo, a cathedral with a terracotta-tiled dome engineered by Brunelleschi and a bell tower by Giotto.",
+      "map_link": "https://www.google.com/maps/place/Florence",
+      "beautiful_places": [
+        "Duomo",
+        "Uffizi Gallery",
+        "Ponte Vecchio",
+        "Piazza della Signoria",
+        "Palazzo Vecchio",
+        "Basilica of Santa Croce",
+        "Boboli Gardens",
+        "Piazzale Michelangelo",
+        "Galleria dell'Accademia",
+        "Palazzo Pitti"
+      ],
+      "average_flight_cost_from_istanbul": 130,
+      "average_accommodation_cost_per_night": 110
+    },
+    {
+      "name": "Milan",
+      "description": "Milan is a global capital of fashion and design. Home to the national stock exchange, itâs a financial hub also known for its high-end restaurants and shops.",
+      "map_link": "https://www.google.com/maps/place/Milan",
+      "beautiful_places": [
+        "Duomo di Milano",
+        "Galleria Vittorio Emanuele II",
+        "Sforza Castle",
+        "Teatro alla Scala",
+        "Santa Maria delle Grazie",
+        "Brera Art Gallery",
+        "Navigli Canals",
+        "Pinacoteca di Brera",
+        "Leonardo da Vinci Museum",
+        "San Siro Stadium"
+      ],
+      "average_flight_cost_from_istanbul": 140,
+      "average_accommodation_cost_per_night": 130
+    },
+    {
+      "name": "Siena",
+      "description": "Siena is a city in Tuscany, Italy. It is known for its medieval brick buildings, narrow streets, and fan-shaped central square, Piazza del Campo, where the Palazzo Pubblico and Torre del Mangia are located.",
+      "map_link": "https://www.google.com/maps/place/Siena",
+      "beautiful_places": [
+        "Piazza del Campo",
+        "Siena Cathedral",
+        "Palazzo Pubblico",
+        "Torre del Mangia",
+        "Basilica of San Domenico",
+        "Piccolomini Library",
+        "Museo dell'Opera Metropolitana",
+        "Santa Maria della Scala",
+        "Porta Romana",
+        "Monte dei Paschi di Siena"
+      ],
+      "average_flight_cost_from_istanbul": 160,
+      "average_accommodation_cost_per_night": 90
+    }
+  ]
+}

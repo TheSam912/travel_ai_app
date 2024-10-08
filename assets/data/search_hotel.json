@@ -1,0 +1,1099 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1698331801126,
+  "data": {
+    "hotels": [
+      {
+        "accessibilityLabel": "The Taj Mahal Tower, Mumbai.\n5 out of 5 stars.\n9.0 Superb 4887 reviews.\n‎Colaba‬ • ‎11 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n1 bed.\n24190 INR.\nIncludes taxes and charges.\nFree cancellation.",
+        "property": {
+          "reviewScoreWord": "Superb",
+          "accuratePropertyClass": 5,
+          "reviewCount": 4887,
+          "ufi": -2092174,
+          "isPreferred": true,
+          "isFirstPage": true,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "qualityClass": 0,
+          "rankingPosition": 0,
+          "reviewScore": 9,
+          "countryCode": "in",
+          "propertyClass": 5,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/31204963.jpg?k=90c11832231c37a814e9631123bd28820e8ad8cd983b78ad529ea139791653d1&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "position": 0,
+          "latitude": 18.9215006738599,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "grossPrice": {
+              "currency": "INR",
+              "value": 24190.0001466274
+            },
+            "taxExceptions": []
+          },
+          "optOutFromGalleryChanges": 0,
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "7471708_158036154_2_42_0"
+          ],
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "id": 74717,
+          "mainPhotoId": 31204963,
+          "name": "The Taj Mahal Tower, Mumbai",
+          "longitude": 72.8332896530628
+        }
+      },
+      {
+        "accessibilityLabel": "Sunset Heaven.\n‎Powai‬ • ‎4 miles from centre‬.\n 495.1 ft² : 2 beds • 1 bedroom • 1 living room • 2 bathrooms.\nOriginal price 9086 INR. Current price 7330 INR..\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "ufi": -2092174,
+          "reviewCount": 0,
+          "reviewScoreWord": "",
+          "accuratePropertyClass": 0,
+          "rankingPosition": 1,
+          "propertyClass": 0,
+          "countryCode": "in",
+          "reviewScore": 0,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "isFirstPage": true,
+          "qualityClass": 0,
+          "latitude": 19.1200589,
+          "checkout": {
+            "untilTime": "11:00",
+            "fromTime": "11:00"
+          },
+          "position": 1,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/492673163.jpg?k=630d18165ec29ed9b94030c94d8c505a99027c1abdeaf1589ee857c59ef060df&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "1077565801_380345253_4_0_0"
+          ],
+          "optOutFromGalleryChanges": 0,
+          "priceBreakdown": {
+            "strikethroughPrice": {
+              "value": 9086.00005507469,
+              "currency": "INR"
+            },
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 7330.39998244494,
+              "currency": "INR"
+            }
+          },
+          "mainPhotoId": 492673163,
+          "name": "Sunset Heaven",
+          "longitude": 72.9171316,
+          "checkinDate": "2023-11-21",
+          "currency": "INR",
+          "id": 10775658
+        }
+      },
+      {
+        "accessibilityLabel": "La Terra Cosy Studio Service Apartment.\n4 out of 5 for property rating.\n‎Western Suburbs‬ • ‎9 miles from centre‬.\n 2,691 ft² : 1 bed • 1 bedroom • 1 bathroom.\n3326 INR.\nIncludes taxes and charges.",
+        "property": {
+          "reviewScoreWord": "",
+          "accuratePropertyClass": 0,
+          "ufi": -2092174,
+          "reviewCount": 0,
+          "checkin": {
+            "fromTime": "13:00",
+            "untilTime": "23:30"
+          },
+          "isFirstPage": true,
+          "qualityClass": 4,
+          "rankingPosition": 2,
+          "propertyClass": 0,
+          "countryCode": "in",
+          "reviewScore": 0,
+          "position": 2,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/495003037.jpg?k=937caa5f5495a97fe8fc464131d6d7dafb0b8d8897a5ff5511fa99dcd136fdfa&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "checkout": {
+            "fromTime": "07:00",
+            "untilTime": "11:00"
+          },
+          "latitude": 19.198281317507,
+          "checkinDate": "2023-11-21",
+          "currency": "INR",
+          "id": 9972500,
+          "mainPhotoId": 495003037,
+          "name": "La Terra Cosy Studio Service Apartment",
+          "longitude": 72.85712434938,
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "grossPrice": {
+              "currency": "INR",
+              "value": 3326.39999203384
+            },
+            "taxExceptions": []
+          },
+          "blockIds": [
+            "997250001_372587785_3_1_0"
+          ],
+          "wishlistName": "Mumbai",
+          "optOutFromGalleryChanges": 0
+        }
+      },
+      {
+        "accessibilityLabel": "Novotel Mumbai Juhu Beach.\n5 out of 5 stars.\n6.8 Pleasant 2341 reviews.\n‎Juhu‬ • ‎4.1 miles from centre‬\n‎Beachfront‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 2 beds.\n15340 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Pleasant",
+          "ufi": -2092174,
+          "reviewCount": 2341,
+          "qualityClass": 0,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "15:00"
+          },
+          "isFirstPage": true,
+          "reviewScore": 6.8,
+          "propertyClass": 5,
+          "countryCode": "in",
+          "rankingPosition": 3,
+          "position": 3,
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/252005217.jpg?k=9d4ae263d055f30dd78158dbf2f6c34900e5c9078b1a545caa28a3c8466b6a69&o="
+          ],
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "latitude": 19.1085017376187,
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 15340.0000929832,
+              "currency": "INR"
+            }
+          },
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "19160501_95454962_2_34_0"
+          ],
+          "optOutFromGalleryChanges": 0,
+          "id": 191605,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "name": "Novotel Mumbai Juhu Beach",
+          "longitude": 72.8243981301785,
+          "mainPhotoId": 252005217
+        }
+      },
+      {
+        "accessibilityLabel": "Taj Santacruz.\n5 out of 5 stars.\n8.8 Fabulous 3479 reviews.\n‎1.9 miles from centre‬\n‎1.7 miles from beach‬\n‎Travel Sustainable‬.\n1 bed.\n23600 INR.\nIncludes taxes and charges.\nFree cancellation.",
+        "property": {
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/125011716.jpg?k=a11b2cf7938b3214652ec26dbe0a51850850e41270bf9a43e986e3d3de848748&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "position": 4,
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "latitude": 19.0921868701275,
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "INR",
+              "value": 23600.0001430511
+            },
+            "benefitBadges": [],
+            "taxExceptions": []
+          },
+          "optOutFromGalleryChanges": 0,
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "154823717_373397689_2_34_0"
+          ],
+          "id": 1548237,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "name": "Taj Santacruz",
+          "longitude": 72.853407561779,
+          "mainPhotoId": 125011716,
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Fabulous",
+          "isPreferred": true,
+          "reviewCount": 3479,
+          "ufi": -2092174,
+          "qualityClass": 0,
+          "isFirstPage": true,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "reviewScore": 8.8,
+          "propertyClass": 5,
+          "countryCode": "in",
+          "rankingPosition": 4
+        }
+      },
+      {
+        "accessibilityLabel": "Trident Nariman Point.\n5 out of 5 stars.\n8.8 Fabulous 4000 reviews.\n‎In city centre‬\n‎1.8 miles from beach‬\n‎Travel Sustainable‬.\n Hotel room : 1 bed.\n14603 INR.\nIncludes taxes and charges.",
+        "property": {
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/32810813.jpg?k=7b5f861c6aad4e51ef13e55c8b68ac945cebdf77aeca84d9c2798bb9af46d24d&o="
+          ],
+          "position": 5,
+          "latitude": 18.9276509091609,
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "id": 78794,
+          "checkinDate": "2023-11-21",
+          "currency": "INR",
+          "name": "Trident Nariman Point",
+          "mainPhotoId": 32810813,
+          "longitude": 72.8205800056458,
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 14602.5000885129,
+              "currency": "INR"
+            }
+          },
+          "optOutFromGalleryChanges": 0,
+          "blockIds": [
+            "7879403_88871784_2_2_0"
+          ],
+          "wishlistName": "Mumbai",
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Fabulous",
+          "isPreferred": true,
+          "reviewCount": 4000,
+          "ufi": -2092174,
+          "qualityClass": 0,
+          "isFirstPage": true,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "propertyClass": 5,
+          "reviewScore": 8.8,
+          "countryCode": "in",
+          "rankingPosition": 5
+        }
+      },
+      {
+        "accessibilityLabel": "Taj Lands End.\n5 out of 5 stars.\n8.6 Fabulous 3957 reviews.\n‎Bandra‬ • ‎4.4 miles from centre‬\n‎1.2 miles from beach‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n1 bed.\n25960 INR.\nIncludes taxes and charges.\nFree cancellation.",
+        "property": {
+          "ufi": -2092174,
+          "reviewCount": 3957,
+          "isPreferred": true,
+          "reviewScoreWord": "Fabulous",
+          "accuratePropertyClass": 5,
+          "rankingPosition": 6,
+          "reviewScore": 8.6,
+          "propertyClass": 5,
+          "countryCode": "in",
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "isFirstPage": true,
+          "qualityClass": 0,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "latitude": 19.0437067461031,
+          "position": 6,
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/13800549.jpg?k=2239f273986987fa71ef3c94ab6f127feb2b859ab63f057980c074689c62c04c&o="
+          ],
+          "blockIds": [
+            "7472201_364461997_2_42_0"
+          ],
+          "wishlistName": "Mumbai",
+          "optOutFromGalleryChanges": 0,
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 25960.0001573563,
+              "currency": "INR"
+            },
+            "taxExceptions": []
+          },
+          "name": "Taj Lands End",
+          "mainPhotoId": 13800549,
+          "longitude": 72.8190377354622,
+          "checkinDate": "2023-11-21",
+          "currency": "INR",
+          "id": 74722
+        }
+      },
+      {
+        "accessibilityLabel": "JW Marriott Mumbai Sahar Airport.\n5 out of 5 stars.\n8.6 Fabulous 2528 reviews.\n‎Western Suburbs‬ • ‎1.9 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 1 bed.\n21830 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "latitude": 19.1031481596599,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "position": 7,
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/465549681.jpg?k=8c903ab7bf0fd906a3fe7b456463805c4026db2dab6706341a83d385160f0f9b&o="
+          ],
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "130073602_369175358_2_42_0"
+          ],
+          "optOutFromGalleryChanges": 0,
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "grossPrice": {
+              "currency": "INR",
+              "value": 21830
+            },
+            "taxExceptions": []
+          },
+          "longitude": 72.8775622833977,
+          "name": "JW Marriott Mumbai Sahar Airport",
+          "mainPhotoId": 465549681,
+          "id": 1300736,
+          "checkinDate": "2023-11-21",
+          "currency": "INR",
+          "isPreferred": true,
+          "ufi": -2092174,
+          "reviewCount": 2528,
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Fabulous",
+          "propertyClass": 5,
+          "reviewScore": 8.6,
+          "countryCode": "in",
+          "rankingPosition": 7,
+          "qualityClass": 0,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "15:00"
+          },
+          "isFirstPage": true
+        }
+      },
+      {
+        "accessibilityLabel": "Radisson Blu Mumbai International Airport.\n5 out of 5 stars.\n8.3 Very good 2345 reviews.\n‎Western Suburbs‬ • ‎2.2 miles from centre‬\n‎Travel Sustainable‬.\n Hotel room : 1 bed.\n18880 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "checkin": {
+            "fromTime": "15:00",
+            "untilTime": "00:00"
+          },
+          "isFirstPage": true,
+          "qualityClass": 0,
+          "rankingPosition": 8,
+          "reviewScore": 8.3,
+          "countryCode": "in",
+          "propertyClass": 5,
+          "reviewScoreWord": "Very good",
+          "accuratePropertyClass": 5,
+          "ufi": -2092174,
+          "reviewCount": 2345,
+          "isPreferred": true,
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "INR",
+              "value": 18880.0001144409
+            },
+            "benefitBadges": [],
+            "taxExceptions": []
+          },
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "683218601_279330376_2_42_0"
+          ],
+          "optOutFromGalleryChanges": 0,
+          "checkinDate": "2023-11-21",
+          "currency": "INR",
+          "id": 6832186,
+          "longitude": 72.8794292490883,
+          "name": "Radisson Blu Mumbai International Airport",
+          "mainPhotoId": 331987485,
+          "position": 8,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/331987485.jpg?k=b48275c360a3d5ccc3d043c7812f2a9314476ace203067eba112bc27421efd6c&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "latitude": 19.108043031195,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          }
+        }
+      },
+      {
+        "accessibilityLabel": "The Oberoi Mumbai.\n5 out of 5 stars.\n9.3 Superb 1615 reviews.\n‎In city centre‬\n‎1.8 miles from beach‬\n‎Travel Sustainable‬.\n Hotel room : 1 bed.\n26963 INR.\nIncludes taxes and charges.",
+        "property": {
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "latitude": 18.9271028775779,
+          "position": 9,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/25339753.jpg?k=42a6601d184ad9e3fe25ec0d15a8605b7e135142479ae42a6265231dca33191f&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "longitude": 72.8202795982361,
+          "name": "The Oberoi Mumbai",
+          "mainPhotoId": 25339753,
+          "id": 78790,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "blockIds": [
+            "7879006_88871785_2_1_0"
+          ],
+          "wishlistName": "Mumbai",
+          "optOutFromGalleryChanges": 0,
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 26963.0001634359,
+              "currency": "INR"
+            }
+          },
+          "isPreferred": true,
+          "ufi": -2092174,
+          "reviewCount": 1615,
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Superb",
+          "reviewScore": 9.3,
+          "propertyClass": 5,
+          "countryCode": "in",
+          "rankingPosition": 9,
+          "qualityClass": 0,
+          "checkin": {
+            "fromTime": "14:00",
+            "untilTime": "00:00"
+          },
+          "isFirstPage": true
+        }
+      },
+      {
+        "accessibilityLabel": "The Resort.\n4 out of 5 stars.\n7.8 Good 853 reviews.\n‎Western Suburbs‬ • ‎9 miles from centre‬\n‎Beachfront‬\n‎Travel Sustainable‬.\n Private suite : 1 bed.\nOriginal price 17581 INR. Current price 15823 INR..\nIncludes taxes and charges.",
+        "property": {
+          "reviewScoreWord": "Good",
+          "accuratePropertyClass": 4,
+          "ufi": -2092174,
+          "reviewCount": 853,
+          "isPreferred": true,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "isFirstPage": true,
+          "qualityClass": 0,
+          "rankingPosition": 10,
+          "propertyClass": 4,
+          "reviewScore": 7.8,
+          "countryCode": "in",
+          "position": 10,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/380569812.jpg?k=0755f95e7361587eb7b9c9b79ea62d51b8dcef7cba1e3987daecd59e26daa42b&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "latitude": 19.1733980241533,
+          "checkout": {
+            "untilTime": "11:00",
+            "fromTime": "00:00"
+          },
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "id": 420487,
+          "mainPhotoId": 380569812,
+          "name": "The Resort",
+          "longitude": 72.7960512042046,
+          "priceBreakdown": {
+            "strikethroughPrice": {
+              "currency": "INR",
+              "value": 17580.820106566
+            },
+            "taxExceptions": [],
+            "grossPrice": {
+              "value": 15822.7380959094,
+              "currency": "INR"
+            },
+            "benefitBadges": []
+          },
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "42048706_379250323_3_41_0"
+          ],
+          "optOutFromGalleryChanges": 0
+        }
+      },
+      {
+        "accessibilityLabel": "The Westin Mumbai Garden City.\n5 out of 5 stars.\n8.6 Fabulous 1062 reviews.\n‎Western Suburbs‬ • ‎7 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 2 beds.\n21240 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Fabulous",
+          "isPreferred": true,
+          "reviewCount": 1062,
+          "ufi": -2092174,
+          "qualityClass": 0,
+          "isFirstPage": true,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "15:00"
+          },
+          "propertyClass": 5,
+          "reviewScore": 8.6,
+          "countryCode": "in",
+          "rankingPosition": 11,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/345115834.jpg?k=62ef7874f26aa66a18c5e16b928a7302335a286d8e94fac529ddabce25aa8cc5&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "position": 11,
+          "latitude": 19.171513145852,
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "priceBreakdown": {
+            "grossPrice": {
+              "value": 21240,
+              "currency": "INR"
+            },
+            "benefitBadges": [],
+            "taxExceptions": []
+          },
+          "optOutFromGalleryChanges": 0,
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "47348616_246431513_2_42_0"
+          ],
+          "id": 473486,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "name": "The Westin Mumbai Garden City",
+          "mainPhotoId": 345115834,
+          "longitude": 72.8595444560051
+        }
+      },
+      {
+        "accessibilityLabel": "The Taj Mahal Palace, Mumbai.\n5 out of 5 stars.\n9.1 Superb 1505 reviews.\n‎Colaba‬ • ‎11 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n1 bed.\n33040 INR.\nIncludes taxes and charges.\nFree cancellation.",
+        "property": {
+          "blockIds": [
+            "245159510_137748730_2_42_0"
+          ],
+          "wishlistName": "Mumbai",
+          "optOutFromGalleryChanges": 0,
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 33040.0002002716,
+              "currency": "INR"
+            },
+            "taxExceptions": []
+          },
+          "longitude": 72.8331752172471,
+          "name": "The Taj Mahal Palace, Mumbai",
+          "mainPhotoId": 103705059,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "id": 2451595,
+          "latitude": 18.9216373548013,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "position": 12,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/103705059.jpg?k=9e078265b31ad1815a573da8ed2a665f863e3925e1efd730df703421868a2ada&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "rankingPosition": 12,
+          "propertyClass": 5,
+          "reviewScore": 9.1,
+          "countryCode": "in",
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "isFirstPage": true,
+          "qualityClass": 0,
+          "ufi": -2092174,
+          "reviewCount": 1505,
+          "isPreferred": true,
+          "reviewScoreWord": "Superb",
+          "accuratePropertyClass": 5
+        }
+      },
+      {
+        "accessibilityLabel": "ITC Maratha, a Luxury Collection Hotel, Mumbai.\n5 out of 5 stars.\n8.2 Very good 3170 reviews.\n‎Western Suburbs‬ • ‎2 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 1 bed.\n25134 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "47077311_244938433_2_41_0"
+          ],
+          "optOutFromGalleryChanges": 0,
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 25134.0001523495,
+              "currency": "INR"
+            }
+          },
+          "name": "ITC Maratha, a Luxury Collection Hotel, Mumbai",
+          "longitude": 72.8700031488916,
+          "mainPhotoId": 461630790,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "id": 470773,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "latitude": 19.1039728778104,
+          "position": 13,
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/461630790.jpg?k=2beb268dfb8f3a11672b58aba9aab03f16a86f374d97de2315aaf993218204b4&o="
+          ],
+          "rankingPosition": 13,
+          "countryCode": "in",
+          "reviewScore": 8.2,
+          "propertyClass": 5,
+          "checkin": {
+            "fromTime": "15:00",
+            "untilTime": "00:00"
+          },
+          "isFirstPage": true,
+          "qualityClass": 0,
+          "ufi": -2092174,
+          "reviewCount": 3170,
+          "isPreferred": true,
+          "reviewScoreWord": "Very good",
+          "accuratePropertyClass": 5
+        }
+      },
+      {
+        "accessibilityLabel": "Sun-n-Sand Mumbai Juhu Beach.\n5 out of 5 stars.\n7.1 Good 484 reviews.\n‎Juhu‬ • ‎4.2 miles from centre‬\n‎Beachfront‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 1 bed.\n18572 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "isFirstPage": true,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "14:00"
+          },
+          "qualityClass": 0,
+          "rankingPosition": 14,
+          "reviewScore": 7.1,
+          "countryCode": "in",
+          "propertyClass": 5,
+          "reviewScoreWord": "Good",
+          "accuratePropertyClass": 5,
+          "reviewCount": 484,
+          "ufi": -2092174,
+          "isPreferred": true,
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "grossPrice": {
+              "currency": "INR",
+              "value": 18572.0201125741
+            },
+            "benefitBadges": []
+          },
+          "optOutFromGalleryChanges": 0,
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "25210401_212577763_2_2_0"
+          ],
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "id": 252104,
+          "name": "Sun-n-Sand Mumbai Juhu Beach",
+          "longitude": 72.8243431448936,
+          "mainPhotoId": 11467865,
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/11467865.jpg?k=d04b316383601e27b9f7d08a6f70c46ebd63be5b0c7a884d55c85c32b533e959&o="
+          ],
+          "position": 14,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "latitude": 19.1094876241502
+        }
+      },
+      {
+        "accessibilityLabel": "Hotel Ariana Residency.\n4 out of 5 stars.\n6.9 Pleasant 369 reviews.\n‎Western Suburbs‬ • ‎4.6 miles from centre‬\n‎5,000 feet from beach‬\n‎Travel Sustainable‬\n‎This property has cots available‬.\n Hotel room : 1 bed.\nOriginal price 14702 INR. Current price 11026 INR..\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "isPreferred": true,
+          "reviewCount": 369,
+          "ufi": -2092174,
+          "accuratePropertyClass": 4,
+          "reviewScoreWord": "Pleasant",
+          "propertyClass": 4,
+          "reviewScore": 6.9,
+          "countryCode": "in",
+          "rankingPosition": 15,
+          "qualityClass": 0,
+          "isFirstPage": true,
+          "checkin": {
+            "untilTime": "23:00",
+            "fromTime": "12:00"
+          },
+          "latitude": 19.1275934612682,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "11:00"
+          },
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/392019082.jpg?k=d825a25be93ddb1a2bc16e0fdb573ec8bcb9ed69e286890b207ca558748dca32&o="
+          ],
+          "isPreferredPlus": true,
+          "position": 15,
+          "longitude": 72.8326159372177,
+          "name": "Hotel Ariana Residency",
+          "mainPhotoId": 392019082,
+          "id": 8778629,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "optOutFromGalleryChanges": 0,
+          "blockIds": [
+            "877862902_375547299_2_2_0"
+          ],
+          "wishlistName": "Mumbai",
+          "priceBreakdown": {
+            "strikethroughPrice": {
+              "value": 14701.7498891145,
+              "currency": "INR"
+            },
+            "taxExceptions": [],
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 11026.3094668359,
+              "currency": "INR"
+            }
+          }
+        }
+      },
+      {
+        "accessibilityLabel": "Niranta Transit Hotel Mumbai Airport - At Arrivals.\n4 out of 5 stars.\n7.2 Good 1032 reviews.\n‎Andheri‬ • ‎1.6 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 1 bed.\nOriginal price 32081 INR. Current price 19249 INR..\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "position": 16,
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/336693532.jpg?k=86ff2c5bb735ba1061a35f977c362a4b9c6dd65ec067c4398de0c0377e0c3ebd&o="
+          ],
+          "checkoutDate": "2023-11-22",
+          "latitude": 19.0992184723321,
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "id": 1781955,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "mainPhotoId": 336693532,
+          "name": "Niranta Transit Hotel Mumbai Airport - At Arrivals",
+          "longitude": 72.8753851192016,
+          "priceBreakdown": {
+            "benefitBadges": [],
+            "grossPrice": {
+              "value": 19248.7501166761,
+              "currency": "INR"
+            },
+            "strikethroughPrice": {
+              "value": 32081.2501944602,
+              "currency": "INR"
+            },
+            "taxExceptions": []
+          },
+          "blockIds": [
+            "178195501_333098515_2_2_0"
+          ],
+          "wishlistName": "Mumbai",
+          "optOutFromGalleryChanges": 0,
+          "accuratePropertyClass": 4,
+          "reviewScoreWord": "Good",
+          "isPreferred": true,
+          "ufi": -2092174,
+          "reviewCount": 1032,
+          "qualityClass": 0,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "12:00"
+          },
+          "isFirstPage": true,
+          "countryCode": "in",
+          "reviewScore": 7.2,
+          "propertyClass": 4,
+          "rankingPosition": 16
+        }
+      },
+      {
+        "accessibilityLabel": "Hilton Mumbai International Airport Hotel.\n5 out of 5 stars.\n7.8 Good 1869 reviews.\n‎Western Suburbs‬ • ‎2 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 2 beds.\n21830 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "qualityClass": 0,
+          "isFirstPage": true,
+          "checkin": {
+            "untilTime": "00:00",
+            "fromTime": "15:00"
+          },
+          "reviewScore": 7.8,
+          "countryCode": "in",
+          "propertyClass": 5,
+          "rankingPosition": 17,
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Good",
+          "isPreferred": true,
+          "reviewCount": 1869,
+          "ufi": -2092174,
+          "priceBreakdown": {
+            "grossPrice": {
+              "currency": "INR",
+              "value": 21830.0001323223
+            },
+            "benefitBadges": [],
+            "taxExceptions": []
+          },
+          "optOutFromGalleryChanges": 1,
+          "blockIds": [
+            "28362412_379643280_2_42_0"
+          ],
+          "wishlistName": "Mumbai",
+          "id": 283624,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "mainPhotoId": 483825117,
+          "name": "Hilton Mumbai International Airport Hotel",
+          "longitude": 72.8709116578102,
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/483825117.jpg?k=3e9ad1b06f2d88d6794eb7662223650800963fe496eafdcb0f84ee8f6b516182&o="
+          ],
+          "position": 17,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "latitude": 19.1041906326191
+        }
+      },
+      {
+        "accessibilityLabel": "Courtyard by Marriott Mumbai International Airport.\n5 out of 5 stars.\n8.1 Very good 1371 reviews.\n‎Western Suburbs‬ • ‎2.8 miles from centre‬\n‎Travel Sustainable‬\n‎This property has free cots available‬.\n Hotel room : 1 bed.\n24780 INR.\nIncludes taxes and charges.\nFree cancellation.",
+        "property": {
+          "reviewScore": 8.1,
+          "countryCode": "in",
+          "propertyClass": 5,
+          "rankingPosition": 18,
+          "qualityClass": 0,
+          "isFirstPage": true,
+          "checkin": {
+            "fromTime": "15:00",
+            "untilTime": "00:00"
+          },
+          "isPreferred": true,
+          "reviewCount": 1371,
+          "ufi": -2092174,
+          "accuratePropertyClass": 5,
+          "reviewScoreWord": "Very good",
+          "name": "Courtyard by Marriott Mumbai International Airport",
+          "mainPhotoId": 461660051,
+          "longitude": 72.8643321990967,
+          "id": 238999,
+          "checkinDate": "2023-11-21",
+          "currency": "INR",
+          "optOutFromGalleryChanges": 0,
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "23899910_270181244_2_42_0"
+          ],
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "grossPrice": {
+              "currency": "INR",
+              "value": 24780
+            },
+            "benefitBadges": []
+          },
+          "latitude": 19.1137681789981,
+          "checkout": {
+            "fromTime": "00:00",
+            "untilTime": "12:00"
+          },
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/461660051.jpg?k=b8149f7ac7756b80accb066e0feb56c0dd13e0534048da3cfd782d5e366cdabb&o="
+          ],
+          "position": 18
+        }
+      },
+      {
+        "accessibilityLabel": "Novotel Mumbai International Airport.\n5 out of 5 stars.\n8.4 Very good 488 reviews.\n‎Western Suburbs‬ • ‎2.4 miles from centre‬\n‎Travel Sustainable‬.\n Hotel room : 1 bed.\n16519 INR.\nIncludes taxes and charges.\nFree cancellation.\nNo prepayment needed.",
+        "property": {
+          "latitude": 19.110109,
+          "checkout": {
+            "untilTime": "12:00",
+            "fromTime": "00:00"
+          },
+          "checkoutDate": "2023-11-22",
+          "photoUrls": [
+            "https://cf.bstatic.com/xdata/images/hotel/square60/464507617.jpg?k=bd777877f671cb063e5aa6b1739caaeea63d45b099e3bb839a7bfe6fbb2e4218&o="
+          ],
+          "position": 19,
+          "optOutFromGalleryChanges": 0,
+          "wishlistName": "Mumbai",
+          "blockIds": [
+            "936061202_365769414_2_42_0"
+          ],
+          "priceBreakdown": {
+            "taxExceptions": [],
+            "grossPrice": {
+              "currency": "INR",
+              "value": 16518.8201001287
+            },
+            "benefitBadges": []
+          },
+          "longitude": 72.875298,
+          "name": "Novotel Mumbai International Airport",
+          "mainPhotoId": 464507617,
+          "currency": "INR",
+          "checkinDate": "2023-11-21",
+          "id": 9360612,
+          "reviewCount": 488,
+          "ufi": -2092174,
+          "isPreferred": true,
+          "reviewScoreWord": "Very good",
+          "accuratePropertyClass": 5,
+          "rankingPosition": 19,
+          "reviewScore": 8.4,
+          "propertyClass": 5,
+          "countryCode": "in",
+          "isFirstPage": true,
+          "checkin": {
+            "fromTime": "15:00",
+            "untilTime": "00:00"
+          },
+          "qualityClass": 0
+        }
+      }
+    ],
+    "meta": [
+      {
+        "title": "393 properties"
+      }
+    ],
+    "appear": [
+      {
+        "component": {
+          "props": {
+            "fill": true,
+            "content": {
+              "props": {
+                "fitContentWidth": true,
+                "items": [
+                  {
+                    "props": {
+                      "component": {
+                        "props": {
+                          "spacing": "spacing_half",
+                          "items": [
+                            {
+                              "props": {
+                                "text": [
+                                  {
+                                    "text": "Commission paid and other benefits may affect an accommodation's ranking.",
+                                    "font": "body_2"
+                                  },
+                                  {
+                                    "text": "  ",
+                                    "color": "foreground",
+                                    "font": "strong_2"
+                                  },
+                                  {
+                                    "font": "body_2",
+                                    "color": "action_foreground",
+                                    "text": "Find out more",
+                                    "linkActions": [
+                                      {
+                                        "props": {
+                                          "url": "booking://webview?url=https%3A%2F%2Fm.booking.com%2Fgeneral.en.html%3Faid%3D332731%3Btmpl%3Ddocs%2Fterms-and-conditions"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "props": {}
+                  },
+                  {
+                    "props": {
+                      "component": {
+                        "props": {
+                          "accessibilityLabel": "Close",
+                          "icon": "close",
+                          "tertiaryTintedColor": "foreground",
+                          "variant": "tertiary_tinted"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "id": "cma"
+      },
+      {
+        "contentUrl": "https://mobile-apps.booking.com/json/mobile.saba?route_path=saba-chat-entrypoint&add_bh_info=1&add_genius_percentage_value=1&add_ribbon_text=1&affiliate_id=332731&arrival_date=2023-11-21&autoextend=1&booked_x_times_for_dates=1&booked_x_times_threshold=1&categories_filter_additional_data=&change_popularity_sort_option_copy_tag=1&change_sort_options_copy_tags=1&check_excluded_charge_or_tax=1&check_flexible_dates=1&check_is_candidate_wholesaler=1&currency_code=INR&dark_mode=1&deeplink_sec_since_click=168567.9046729803&departure_date=2023-11-22&dest_ids=-2092174&device_id=57d11ec8bad14e119e4c15a86202c23f&distance_unit=metric&dl_sr_adoption=1&dotd=2&exposure_api_version=2.17&fix_dotd=1&flex_window=0&generate_map_bounding_box=1&get_cny_campaign_banner=1&get_skiing_info=1&guest_qty=1&include_amazon_banner=1&include_apartment_config=1&include_badges_in_price_breakdown=1&include_beach_information=1&include_bh_quality_classification=1&include_block_ids=1&include_bsb_info=1&include_bwallet_hotel_eligibility=1&include_composite_breakdown=1&include_cpc_non_trader_copy=1&include_excluded_charges_detail=1&include_free_cancellation=1&include_genius_badge=1&include_last_reservation=1&include_nr_bookings_best_range_message=1&include_nr_bookings_today=1&include_offered_bed_types=1&include_preview_cards=1&include_rack_rate_savings=1&include_rtb=1&include_ski_information=1&languagecode=en&location_source=recents&mark_first_highlighted_hotel=1&min_saba_version=31&network_type=wifi&new_segments_carousel=1&offset=0&optimized_call=1&outcome=search_results&page_define_enabled=1&pref_match=0&reason=change_sort_options&remove_wishlist_padding=1&room_qty=1&rows=auto&saba=1&saba_payload_root=1&saba_version=50&sb_calendar_open=1&search_type=city&send_ranking_version=1&send_search_id=1&show_beach_filter_badge=1&show_city_distance=1&show_distance_to_beach=1&show_distance_to_nearest_public_transport=1&show_genius_free_breakfast=0&show_if_mobile_deal=1&show_negotiated_rates=1&show_no_prepayment=1&show_policy=1&show_review_score_breakdowns=1&show_selected_filter_values=1&show_soldout=1&sort_by=auto&sort_by_source=sort_options&sort_genius_new_copy=1&source=search_results&temperature_unit=c&travel_purpose=&unfiltered_count_enabled=1&units=imperial&use_dest_based_list_creation=1&use_direct_payment=1&user_os=15.5&user_version=36.8-iphone&categories_filter=price%3A%3AINR-min-max&children_qty=2&children_age=0%2C17&page=search-results"
+      },
+      {
+        "id": "banner_qualityrating",
+        "component": {
+          "props": {
+            "title": "",
+            "text": "Properties with these icons have been awarded Booking.com's quality rating for homes"
+          }
+        }
+      },
+      {
+        "id": "signin_now",
+        "component": {
+          "props": {
+            "text": "Get instant access to our Genius loyalty programme and enjoy discounts at properties worldwide.",
+            "title": "Sign in and save money"
+          }
+        }
+      }
+    ]
+  }
+}
