@@ -4,6 +4,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
+import '../constant/colors.dart';
+
 class ImageViewScreen extends StatelessWidget {
   ImageViewScreen({super.key, required this.imagesList, required this.imgIndex});
 
@@ -26,17 +28,20 @@ class ImageViewScreen extends StatelessWidget {
               ),
               CarouselSlider(
                 options: CarouselOptions(
-                  height: height,
-                  viewportFraction: 1.0,
-                  enlargeCenterPage: false,
-                  initialPage: imgIndex
-                  // autoPlay: false,
-                ),
+                    height: height,
+                    viewportFraction: 1.0,
+                    enlargeCenterPage: false,
+                    initialPage: imgIndex
+                    // autoPlay: false,
+                    ),
                 items: imagesList
                     .map(
                       (item) => SizedBox(
                         width: MediaQuery.of(context).size.width,
                         child: CachedNetworkImage(
+                          placeholder: (context, url) =>
+                               Center(child: CircularProgressIndicator(color: AppColor().primaryColor)),
+                          errorWidget: (context, url, error) => const Icon(Icons.error),
                           imageUrl: item,
                         ),
                       ),

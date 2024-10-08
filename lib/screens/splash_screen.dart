@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:travel_ai_app/constant/colors.dart';
+import 'package:travel_ai_app/routes/route.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -7,6 +9,10 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
+    Future.delayed(
+      Duration(milliseconds: 2000),
+      () => context.goNamed('travel'),
+    );
     return Scaffold(
         backgroundColor: AppColor().lightGray,
         body: Container(
@@ -24,12 +30,9 @@ class SplashScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                Center(),
                 Padding(
-                  padding: const EdgeInsets.only(right: 80, left: 10),
-                  child: Image.asset("assets/images/splash_text.jpg"),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 30),
+                  padding: const EdgeInsets.only(bottom: 20),
                   child: CircularProgressIndicator(
                     color: AppColor().primaryColor,
                   ),

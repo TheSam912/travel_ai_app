@@ -51,11 +51,11 @@ List<HomeItem> homeItemList = [
       false,
       Coords(59.4358, 24.7392)),
   HomeItem(
-      "Niagara",
+      "Niagara Falls",
       "https://imageio.forbes.com/specials-images/imageserve/62e5761e62f4cf7f929932d6/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds",
       "Ontario, Canada",
       true,
-      Coords(43.0896, 79.0849)),
+      Coords(43.081528, -79.064240)),
   HomeItem(
       "Great Sphinx of Giza",
       "https://cdn.britannica.com/57/122157-004-D6B548F7/Side-view-Sphinx-Great-Pyramid-of-Khufu.jpg",

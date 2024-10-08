@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: PreferredSize(
           preferredSize: const Size(0, 0),
           child: Container(
-            color: Colors.black,
+            color: Colors.grey.shade900,
           )),
       body: ListView(
         shrinkWrap: true,

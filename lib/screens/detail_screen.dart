@@ -92,6 +92,12 @@ class _DetailScreenState extends State<DetailScreen> {
                                       width: MediaQuery.of(context).size.width,
                                       margin: const EdgeInsets.symmetric(horizontal: 5.0),
                                       child: CachedNetworkImage(
+                                        placeholder: (context, url) => Center(
+                                            child: CircularProgressIndicator(
+                                          color: AppColor().primaryColor,
+                                        )),
+                                        errorWidget: (context, url, error) =>
+                                            const Icon(Icons.error),
                                         imageUrl: item,
                                         fit: BoxFit.cover,
                                       ),
@@ -199,7 +205,7 @@ class _DetailScreenState extends State<DetailScreen> {
                     ],
                   ),
                 ),
-                text_section(widget.item.title, widget.item.location, widget.item.coords),
+                text_section(context, widget.item.title, widget.item.location, widget.item.coords),
                 mapView(widget.item.title, widget.item.coords),
               ],
             )
@@ -213,9 +219,9 @@ class _DetailScreenState extends State<DetailScreen> {
 }
 
 mapView(name, coords) {
-  openMap(Coords location, String title) async {
+  openMap(Coords coords, String title) async {
     final availableMaps = await MapLauncher.installedMaps;
-    await availableMaps.first.showMarker(coords: location, title: title);
+    await availableMaps.first.showMarker(coords: coords, title: title);
   }
 
   return Container(
@@ -259,7 +265,7 @@ mapView(name, coords) {
   );
 }
 
-text_section(name, location, coords) {
+text_section(context, name, location, coords) {
   openMap(Coords location, String title) async {
     final availableMaps = await MapLauncher.installedMaps;
     await availableMaps.first.showMarker(coords: location, title: title);
@@ -273,10 +279,13 @@ text_section(name, location, coords) {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(
-              name,
-              style: GoogleFonts.montserrat(
-                  color: Colors.black, fontSize: 24, fontWeight: FontWeight.w700),
+            SizedBox(
+              width: MediaQuery.of(context).size.width / 2,
+              child: Text(
+                name,
+                style: GoogleFonts.montserrat(
+                    color: Colors.black, fontSize: 18, fontWeight: FontWeight.w700),
+              ),
             ),
             Row(
               children: [
