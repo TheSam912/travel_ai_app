@@ -77,16 +77,24 @@ class _DetailScreenState extends State<DetailScreen> {
                             },
                           ),
                           items: images
-                              .map((item) => Container(
-                                    width: MediaQuery.of(context).size.width,
-                                    margin: const EdgeInsets.symmetric(horizontal: 5.0),
-                                    // child: Image(
-                                    //   image: NetworkImage(item),
-                                    //   fit: BoxFit.cover,
-                                    // )
-                                    child: CachedNetworkImage(
-                                      imageUrl: item,
-                                      fit: BoxFit.cover,
+                              .map((item) => GestureDetector(
+                                    onTap: () {
+                                      Navigator.push(context, MaterialPageRoute(
+                                        builder: (context) {
+                                          return ImageViewScreen(
+                                            imagesList: images,
+                                            imgIndex: _current,
+                                          );
+                                        },
+                                      ));
+                                    },
+                                    child: Container(
+                                      width: MediaQuery.of(context).size.width,
+                                      margin: const EdgeInsets.symmetric(horizontal: 5.0),
+                                      child: CachedNetworkImage(
+                                        imageUrl: item,
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ))
                               .toList(),
@@ -191,7 +199,7 @@ class _DetailScreenState extends State<DetailScreen> {
                     ],
                   ),
                 ),
-                text_section(widget.item.title, widget.item.location),
+                text_section(widget.item.title, widget.item.location, widget.item.coords),
                 mapView(widget.item.title, widget.item.coords),
               ],
             )
@@ -251,7 +259,7 @@ mapView(name, coords) {
   );
 }
 
-text_section(name, location) {
+text_section(name, location, coords) {
   openMap(Coords location, String title) async {
     final availableMaps = await MapLauncher.installedMaps;
     await availableMaps.first.showMarker(coords: location, title: title);
@@ -310,7 +318,7 @@ text_section(name, location) {
               ],
             ),
             GestureDetector(
-              onTap: () => openMap(Coords(48.8584, 2.2945), "Eiffel Tower"),
+              onTap: () => openMap(coords, name),
               child: Text(
                 "Map direction",
                 style: GoogleFonts.montserrat(

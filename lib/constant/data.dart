@@ -46,7 +46,7 @@ List<HomeItem> homeItemList = [
       "Munich, Germany", false, Coords(48.1374, 11.5754)),
   HomeItem(
       "Alexander Nevsky Cathedral",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxe3rElyKQq_uiAAf0ngw-DcGj5exl1eRUXg&s",
+      "https://images.unsplash.com/photo-1643888976443-9dbbb2e10bac?q=80&w=2728&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "Tallinn, Estonia",
       false,
       Coords(59.4358, 24.7392)),
