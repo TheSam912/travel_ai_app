@@ -45,6 +45,8 @@ dependencies:
   swipe_cards:
   carousel_slider:
   cached_network_image:
+  swipeable_card_stack:
+  country_state_city:
 
 dev_dependencies:
   flutter_test:

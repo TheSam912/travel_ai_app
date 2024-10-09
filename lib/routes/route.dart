@@ -63,7 +63,7 @@ final GoRouter router =
               return CustomTransitionPage(
                 key: state.pageKey,
                 name: state.name,
-                child: const SuggestionScreen(),
+                child: SuggestionScreen(),
                 transitionsBuilder: (context, animation, secondaryAnimation, child) {
                   return myTransition(child, animation);
                 },

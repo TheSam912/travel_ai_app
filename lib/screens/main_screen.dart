@@ -11,6 +11,7 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColor().lightGray,
       body: navigationShell,
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.grey.shade900,
@@ -51,12 +52,12 @@ class MainScreen extends StatelessWidget {
               label: ''),
         ],
         currentIndex: navigationShell.currentIndex,
-        onTap: (int index) => _onTap(context, index),
+        onTap: (int index) => _onTap(index),
       ),
     );
   }
 
-  void _onTap(BuildContext context, int index) {
+  void _onTap(int index) {
     navigationShell.goBranch(
       index,
       initialLocation: index == navigationShell.currentIndex,
