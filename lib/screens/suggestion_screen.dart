@@ -2,10 +2,12 @@ import 'dart:math';
 
 import 'package:country_state_city/country_state_city.dart' as cityState;
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:swipeable_card_stack/swipeable_card_stack.dart';
 import 'package:travel_ai_app/models/country_model.dart';
 
 import '../constant/colors.dart';
+import '../constant/data.dart';
 
 class SuggestionScreen extends StatefulWidget {
   SuggestionScreen({super.key});
@@ -17,28 +19,14 @@ class SuggestionScreen extends StatefulWidget {
 class _SuggestionScreenState extends State<SuggestionScreen> {
   TextEditingController controller = TextEditingController();
   String selectedCountry = "";
-  String selectedCity = "";
-  List cities = [];
   List<CountryModel> countries = [];
   List countriesFlag = [];
   List<CountryModel> searchResult = [];
-  List searchResultCity = [];
 
   @override
   void initState() {
     super.initState();
     getListCountries();
-  }
-
-  getListCities(code) async {
-    searchResult = [];
-    controller.text = "";
-    var allCities = await cityState.getCountryCities(code);
-    for (var city in allCities) {
-      setState(() {
-        cities.add(city.name);
-      });
-    }
   }
 
   getListCountries() async {
@@ -50,7 +38,7 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
     }
   }
 
-  searchWidget(String hint, type) {
+  searchWidget() {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 12),
       decoration: BoxDecoration(
@@ -63,33 +51,32 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
           icon: const Icon(Icons.cancel),
           onPressed: () {
             controller.clear();
-            type == "country" ? onSearchTextChangedCountry('') : onSearchTextChangedCity('');
+            onSearchTextChangedCountry('');
+            FocusManager.instance.primaryFocus?.unfocus();
           },
         ),
         title: TextField(
           controller: controller,
-          onChanged: (value) => type == "country"
-              ? onSearchTextChangedCountry(value)
-              : onSearchTextChangedCity(value),
-          decoration: InputDecoration(hintText: hint, border: InputBorder.none),
+          onChanged: (value) => onSearchTextChangedCountry(value),
+          decoration: const InputDecoration(hintText: "Search country", border: InputBorder.none),
         ),
       ),
     );
   }
 
-  buildNormal(list, type) {
+  buildNormal(list) {
     return GridView.builder(
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, childAspectRatio: type == "country" ? 2 : 3),
+      gridDelegate:
+          const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, childAspectRatio: 2.8),
       shrinkWrap: true,
-      itemCount: list.length,
+      itemCount: 6,
       physics: const NeverScrollableScrollPhysics(),
       itemBuilder: (BuildContext context, int index) {
         return GestureDetector(
           onTap: () {
             setState(() {
+              FocusManager.instance.primaryFocus?.unfocus();
               selectedCountry = list[index].isoCode;
-              getListCities(selectedCountry);
             });
           },
           child: Container(
@@ -101,44 +88,36 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
                         color: Colors.grey.shade300, blurRadius: 1, offset: const Offset(0, 5))
                   ]),
               margin: const EdgeInsets.all(8),
-              child: type == "country"
-                  ? Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Text(
-                          list[index].flag,
-                          style: const TextStyle(fontSize: 45),
-                        ),
-                        SizedBox(
-                          width: 150,
-                          child: Text(
-                            list[index].name,
-                            style: const TextStyle(fontSize: 14),
-                            maxLines: 1,
-                            textAlign: TextAlign.center,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                      ],
-                    )
-                  : Center(
-                      child: Text(
-                        list[index],
-                        style: const TextStyle(fontSize: 14),
-                        textAlign: TextAlign.center,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    )),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    list[index].flag,
+                    width: 25,
+                    height: 25,
+                    fit: BoxFit.cover,
+                  ),
+                  SizedBox(
+                    child: Text(
+                      list[index].name,
+                      style: GoogleFonts.montserrat(fontWeight: FontWeight.w700, fontSize: 12),
+                      maxLines: 1,
+                      textAlign: TextAlign.center,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
+              )),
         );
       },
     );
   }
 
-  buildSearch(list, type) {
+  buildSearch(list) {
     return GridView.builder(
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, childAspectRatio: type == "country" ? 2 : 3),
+      gridDelegate:
+          const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, childAspectRatio: 2.8),
       itemCount: list.length,
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
@@ -146,8 +125,8 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
         return GestureDetector(
           onTap: () {
             setState(() {
+              FocusManager.instance.primaryFocus?.unfocus();
               selectedCountry = list[index].isoCode;
-              getListCities(selectedCountry);
             });
           },
           child: Container(
@@ -159,35 +138,26 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
                         color: Colors.grey.shade300, blurRadius: 1, offset: const Offset(0, 5))
                   ]),
               margin: const EdgeInsets.all(8),
-              child: type == "country"
-                  ? Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Text(
-                          list[index].flag,
-                          style: const TextStyle(fontSize: 45),
-                        ),
-                        SizedBox(
-                          width: 150,
-                          child: Text(
-                            list[index].name,
-                            style: const TextStyle(fontSize: 14),
-                            maxLines: 1,
-                            textAlign: TextAlign.center,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                      ],
-                    )
-                  : Center(
-                      child: Text(
-                        list[index],
-                        style: const TextStyle(fontSize: 14),
-                        textAlign: TextAlign.center,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    )),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Text(
+                    list[index].flag,
+                    style: const TextStyle(fontSize: 25),
+                  ),
+                  SizedBox(
+                    width: 100,
+                    child: Text(
+                      list[index].name,
+                      style: GoogleFonts.montserrat(fontWeight: FontWeight.w700, fontSize: 12),
+                      maxLines: 1,
+                      textAlign: TextAlign.center,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
+              )),
         );
       },
     );
@@ -209,22 +179,6 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
     setState(() {});
   }
 
-  onSearchTextChangedCity(text) async {
-    searchResult.clear();
-    if (controller.text.isEmpty) {
-      setState(() {});
-      return;
-    }
-    for (var city in cities) {
-      if (city.toLowerCase().contains(text)) {
-        setState(() {
-          searchResultCity.add(city);
-        });
-      }
-    }
-    setState(() {});
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -235,31 +189,15 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
             color: Colors.grey.shade900,
           )),
       body: countries.isNotEmpty
-          ? selectedCountry.isEmpty
-              ? ListView(
-                  shrinkWrap: true,
-                  children: [
-                    searchWidget("Search country", "country"),
-                    searchResult.isNotEmpty || controller.text.isNotEmpty
-                        ? buildSearch(searchResult, "country")
-                        : buildNormal(countries, "country")
-                  ],
-                )
-              : cities.isNotEmpty
-                  ? ListView(
-                      shrinkWrap: true,
-                      children: [
-                        searchWidget("Search city", "city"),
-                        searchResultCity.isNotEmpty || controller.text.isNotEmpty
-                            ? buildSearch(searchResultCity, "city")
-                            : buildNormal(cities, "city")
-                      ],
-                    )
-                  : Center(
-                      child: CircularProgressIndicator(
-                        color: AppColor().primaryColor,
-                      ),
-                    )
+          ? ListView(
+              shrinkWrap: true,
+              children: [
+                searchWidget(),
+                searchResult.isNotEmpty || controller.text.isNotEmpty
+                    ? buildSearch(searchResult)
+                    : buildNormal(dummyCountry)
+              ],
+            )
           : Center(
               child: CircularProgressIndicator(
                 color: AppColor().primaryColor,

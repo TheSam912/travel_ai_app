@@ -1,4 +1,5 @@
 import 'package:map_launcher/map_launcher.dart';
+import 'package:travel_ai_app/models/country_model.dart';
 import 'package:travel_ai_app/models/item_home.dart';
 
 List<String> countries = [
@@ -24,6 +25,15 @@ List<String> flags = [
   'assets/images/flags/france_flag.png',
   'assets/images/flags/uk_flag.png',
   'assets/images/flags/japan_flag.png',
+];
+
+List<CountryModel> dummyCountry = [
+  CountryModel("Germany", "assets/images/flags/germany_flag.png", "DE"),
+  CountryModel("Canada", "assets/images/flags/canada_flag.png", "CA"),
+  CountryModel("Italy", "assets/images/flags/italy_flag.png", "IT"),
+  CountryModel("United Kingdom", "assets/images/flags/uk_flag.png", "UK"),
+  CountryModel("Dubai", "assets/images/flags/emirates_flag.png", "AE"),
+  CountryModel("France", "assets/images/flags/france_flag.png", "FR"),
 ];
 
 String loremIpsum =
